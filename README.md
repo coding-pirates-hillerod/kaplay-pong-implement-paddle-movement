@@ -80,3 +80,4 @@ npm run dev
 
 Følger man således linket, så åbnes ens browser, og man skulle gerne se dette billede:
 
+<img width="940" alt="Screenshot 2025-02-07 at 14 14 22" src="https://github.com/user-attachments/assets/55834b0a-1580-4dac-8118-f39fda9e2d0c" />
