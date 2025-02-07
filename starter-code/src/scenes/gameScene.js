@@ -48,17 +48,7 @@ export function gameScene() {
     area(),
   ]);
 
-  // paddle1.onKeyDown("w", () => {
-  //   if (paddle1.pos.y >= 0) {
-  //     paddle1.moveTo(paddle1.pos.x, paddle1.pos.y - paddleSpeed, paddleSpeed);
-  //   }
-  // });
-
-  // paddle1.onKeyDown("s", () => {
-  //   if (paddle1.pos.y <= height() - paddleHeight) {
-  //     paddle1.moveTo(paddle1.pos.x, paddle1.pos.y + paddleSpeed, paddleSpeed);
-  //   }
-  // });
+  // DET HERUNDER DU SKAL SKRIVE DIN KODE TIL PADDLE 1
 
   paddle1.onCollide("ball", () => {
     isBallMovingRight = !isBallMovingRight;
@@ -70,17 +60,7 @@ export function gameScene() {
     area(),
   ]);
 
-  // paddle2.onKeyDown("up", () => {
-  //   if (paddle2.pos.y >= 0) {
-  //     paddle2.moveTo(paddle2.pos.x, paddle2.pos.y - paddleSpeed, paddleSpeed);
-  //   }
-  // });
-
-  // paddle2.onKeyDown("down", () => {
-  //   if (paddle2.pos.y <= height() - paddleHeight) {
-  //     paddle2.moveTo(paddle2.pos.x, paddle2.pos.y + paddleSpeed, paddleSpeed);
-  //   }
-  // });
+  // DET HERUNDER DU SKAL SKRIVE DIN KODE TIL PADDLE 2
 
   paddle2.onCollide("ball", () => {
     isBallMovingRight = !isBallMovingRight;
