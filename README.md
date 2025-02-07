@@ -33,3 +33,5 @@ cd kaplay-pong-implement-paddle-movement
 
 ### Hent koden via 'zip download'
 Har du ikke har 'git' installeret, så kan du hente dette repos kode ved at downloade det som en zip fil. Det gør ved først at trykke på grønne knap med teksten <code>Code</code>, og så efter trykke på <code>Download ZIP</code> fra drop down menuen
+
+<img width="497" alt="Screenshot 2025-02-07 at 13 25 06" src="https://github.com/user-attachments/assets/66009d86-35b1-4ced-ace4-5d2be6d67934" />
