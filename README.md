@@ -84,3 +84,6 @@ Følger man således linket, så åbnes ens browser, og man skulle gerne se dett
 
 Og ja, trykker fra billede på <code>space</code> tasten på sit keyboard, så begynder spillet som næste billede viser, hvortil de 2 'paddles' i hver side dog **ikke** rykker sig, når man taster noget på sit keyboard, da det jo lige netop er dét som DU skal kode selv.
 
+<img width="1009" alt="Screenshot 2025-02-07 at 15 47 56" src="https://github.com/user-attachments/assets/c510379f-23b0-4e67-bf5f-67cafb4d74b6" />
+
+
