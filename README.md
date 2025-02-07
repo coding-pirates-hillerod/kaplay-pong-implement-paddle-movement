@@ -81,3 +81,6 @@ npm run dev
 Følger man således linket, så åbnes ens browser, og man skulle gerne se dette billede:
 
 <img width="940" alt="Screenshot 2025-02-07 at 14 14 22" src="https://github.com/user-attachments/assets/55834b0a-1580-4dac-8118-f39fda9e2d0c" />
+
+Og ja, trykker fra billede på <code>space</code> tasten på sit keyboard, så begynder spillet som næste billede viser, hvortil de 2 'paddles' i hver side dog **ikke** rykker sig, når man taster noget på sit keyboard, da det jo lige netop er dét som DU skal kode selv.
+
