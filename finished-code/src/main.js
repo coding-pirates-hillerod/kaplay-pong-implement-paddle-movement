@@ -1,11 +1,23 @@
 import kaplay from "kaplay";
-// import "kaplay/global"; // uncomment if you want to use without the k. prefix
+import "kaplay/global";
 
-const k = kaplay();
+import { startScene } from "./scenes/startScene";
+import { gameScene } from "./scenes/gameScene";
+import { gameOverScene } from "./scenes/gameOverScene";
 
-k.loadRoot("./"); // A good idea for Itch.io publishing later
-k.loadSprite("bean", "sprites/bean.png");
+kaplay({
+  background: [0, 0, 0],
+  buttons: {
+    play: {
+      keyboard: ["space"],
+    },
+  },
+  debugKey: "d",
+  debug: true,
+});
 
-k.add([k.pos(120, 80), k.sprite("bean")]);
+scene("start", startScene);
+scene("game", gameScene);
+scene("gameover", gameOverScene);
 
-k.onClick(() => k.addKaboom(k.mousePos()));
+go("start");
